@@ -10,10 +10,15 @@ h1 {
 	padding-bottom: 30%;
 	float: left;
 	margin: 1.6%;
+	border-radius: 25px;
+	background: purple;
 
 }
 
 #container {
 	max-width: 600px;
 	margin: 0 auto;
+}
+span {
+	color: white;
 }
