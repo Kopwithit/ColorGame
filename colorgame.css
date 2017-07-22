@@ -19,13 +19,16 @@ h1 {
 	padding-bottom: 30%;
 	float: left;
 	margin: 1.6%;
-	border-radius: 25px;
+	border-radius: 15%;
 	background: purple;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-trasnition: background 0.6s;
 }
 
 #container {
 	max-width: 600px;
-	margin: 0 auto;
+	margin: 20px auto;
 }
 
 #stripe {
@@ -43,6 +46,7 @@ h1 {
 #colorDisplay {
 	font-size: 200%;
 }
+
 #message {
 	display: inline-block;
 	width: 20%;
@@ -56,6 +60,10 @@ button {
 	color: steelblue;
 	letter-spacing: 1px;
 	font-size: inherit;
+	transition: all 0.3s;
+	-webkit-transition: all 0.6s;
+	-moz-trasnition: all 0.6s;
+	outline: none;
 }
 
 button:hover {
